@@ -1,8 +1,8 @@
 <!--pages/welcome/welcome.wxml-->
-<view>
-<image></image>
-<text></text>
-<view>
-  <text></text>
+<view class="container">
+<l-avatar placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" size="180"/>
+<text class="motto">Hello,七月</text>
+<view class="journey-container">
+  <text class="journey">开启小程序之旅</text>
 </view>
 </view>
